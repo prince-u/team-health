@@ -26,9 +26,12 @@ li.records-icon svg{
   height: auto;
 }
 
+ul a.active li::before,
 li:hover::before{
   width:100%;
 }
+
+ul a.active svg path,
 li:hover svg path{
   fill:hsl(224, 70%, 64%);
 }
